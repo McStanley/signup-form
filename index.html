@@ -22,6 +22,52 @@
             </p>
         </footer>
     </aside>
-    <main></main>
+    <main>
+        <p class="text-main">
+            This is not a real online service! You know you need something <br>
+            like this in your life to help you realize your deepest dreams. <br>
+            Sign up <em>now</em> to get started.
+        </p>
+        <p class="text-main">
+            You <em>know</em> you want to.
+        </p>
+        <div class="form-container">
+            <header class="text-main">Let's do this!</header>
+            <form id="signup-form">
+                <div class="form-row">
+                    <div class="form-input">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first-name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last-name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="password_confirm" id="password-confirm" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button type="submit" form="signup-form" id="submit-button">Create Account</button>
+        <p class="text-login">Already have an account? <a href="#">Log in</a></p>
+    </main>
 </body>
 </html>
